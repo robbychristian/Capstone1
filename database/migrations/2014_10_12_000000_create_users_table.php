@@ -21,9 +21,13 @@ class CreateUsersTable extends Migration
             $table->string('home_add');
             $table->string('brgy_loc');
             $table->string('contact_no');
+            $table->string('bday_m');
+            $table->string('bday_d');
+            $table->string('bday_y');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('profile_pic')->unique();
+            $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

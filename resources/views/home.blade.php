@@ -36,52 +36,48 @@
 
         <!--First Row Features-->
         <div class="row d-flex mt-5" style="justify-content: center; align-items: center">
-            <div class="py-4 px-3 mx-3" style="border-radius: 2.5rem">
-                <div class="card card-bg" style="min-height: 20rem; min-width: 20rem; border-radius: 2.5rem">
+            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-8 col-xs-5 py-4 mx-3 d-flex" style="border-radius: 2.5rem">
+                <div class="card card-bg w-100" style="height: 20rem; border-radius: 2.5rem">
                     <div class="card-body">
                         <h4 class="card-title">Title</h4>
                         <p class="card-text">Text</p>
                     </div>
                 </div>
             </div>
-            <div class="py-4 px-3 mx-3" style="border-radius: 2.5rem">
-                <div class="card card-bg" style="min-height: 20rem; min-width: 20rem; border-radius: 2.5rem">
+            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-8 col-xs-5 py-4 mx-3 d-flex" style="border-radius: 2.5rem">
+                <div class="card card-bg w-100" style="height: 20rem; border-radius: 2.5rem">
                     <div class="card-body">
                         <h4 class="card-title">Title</h4>
                         <p class="card-text">Text</p>
                     </div>
                 </div>
             </div>
-            <div class="py-4 px-3 mx-3" style="border-radius: 2.5rem">
-                <div class="card card-bg" style="min-height: 20rem; min-width: 20rem; border-radius: 2.5rem">
+            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-8 col-xs-5 py-4 mx-3 d-flex" style="border-radius: 2.5rem">
+                <div class="card card-bg w-100" style="height: 20rem; border-radius: 2.5rem">
                     <div class="card-body">
                         <h4 class="card-title">Title</h4>
                         <p class="card-text">Text</p>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--Second Row Features-->
-        <div class="row d-flex mt-5" style="justify-content: center; align-items: center">
-            <div class="py-4 px-3 mx-3" style="border-radius: 2.5rem">
-                <div class="card card-bg" style="min-height: 20rem; min-width: 20rem; border-radius: 2.5rem">
+            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-8 col-xs-5 py-4 mx-3 d-flex" style="border-radius: 2.5rem">
+                <div class="card card-bg w-100" style="height: 20rem; border-radius: 2.5rem">
                     <div class="card-body">
                         <h4 class="card-title">Title</h4>
                         <p class="card-text">Text</p>
                     </div>
                 </div>
             </div>
-            <div class="py-4 px-3 mx-3" style="border-radius: 2.5rem">
-                <div class="card card-bg" style="min-height: 20rem; min-width: 20rem; border-radius: 2.5rem">
+            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-8 col-xs-5 py-4 mx-3 d-flex" style="border-radius: 2.5rem">
+                <div class="card card-bg w-100" style="height: 20rem; border-radius: 2.5rem">
                     <div class="card-body">
                         <h4 class="card-title">Title</h4>
                         <p class="card-text">Text</p>
                     </div>
                 </div>
             </div>
-            <div class="py-4 px-3 mx-3" style="border-radius: 2.5rem">
-                <div class="card card-bg" style="min-height: 20rem; min-width: 20rem; border-radius: 2.5rem">
+            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-8 col-xs-5 py-4 mx-3 d-flex" style="border-radius: 2.5rem">
+                <div class="card card-bg w-100" style="height: 20rem; border-radius: 2.5rem">
                     <div class="card-body">
                         <h4 class="card-title">Title</h4>
                         <p class="card-text">Text</p>
@@ -92,11 +88,11 @@
     </div>
 
     <div class="m-5 row">
-        <div class="col d-flex" style="justify-content: center; align-items: center;" id="img-logo">
+        <div class="col-xl-5 hidden-lg-down d-flex" style="justify-content: center; align-items: center;" id="img-logo">
             <img src="{{ URL::asset('img/kabisig_logo.png') }}" class="img-fluid kabisig-logo" alt=""
                 style="height: 50vh; width: 50vh">
         </div>
-        <div class="col d-flex" style="justify-content: center; align-items: center;">
+        <div class="col-xl-7 col-lg-12 d-flex" style="justify-content: center; align-items: center;">
             <div class="row">
                 <div class="col" style="justify-content: center; align-items: center">
                     <h1 class="display-3 font-weight-bold text-color text-center">Download KaBisig's APK Now!</h1>

@@ -10005,54 +10005,76 @@ h3 {
 }
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
 }
 
 .bg-kabisig {
-    background-color: #CCE8FF;
+    background-color: #cce8ff;
 }
 
 .btn-primary {
-    background-color: #004F91;
+    background-color: #004f91;
 }
 
 .text-color {
-    color: #004F91;
+    color: #004f91;
 }
 
 .card-bg {
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 .kabisig-logo {
-    display: block;
+    height: 100vh;
+    width: 100vh;
 }
 
 .form-background {
-    background-color: #F6F8FF;
+    background-color: #f6f8ff;
 }
 
 .logo-background {
-    background-color: #004F91;
+    background-color: #004f91;
 }
 
 .input-box {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199.98px) {
     .login-img {
         display: none;
     }
-}
-
-@media only screen and (max-width: 998px) {
     .kabisig-logo {
         display: none;
     }
+    .carousel-height {
+        height: 75vh;
+    }
+}
 
+@media only screen and (max-width: 991.98px) {
     .logo-background {
         display: none;
+    }
+    .kabisig-logo {
+        display: none;
+    }
+    .carousel-height {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .carousel-height {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel-height {
+        height: 30vh;
     }
 }
 

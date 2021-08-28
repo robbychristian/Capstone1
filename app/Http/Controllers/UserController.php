@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\UserModel;
 
 class UserController extends Controller
 {
@@ -34,7 +35,22 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $user = new UserModel;
+        $user->first_name = $request->input('fname');
+        $user->middle_name = $request->input('mname');
+        $user->last_name = $request->input('lname');
+        $user->home_add = $request->input('address');
+        $user->brgy_loc = $request->input('brgy');
+        $user->contact_no = $request->input('cnum');
+        $user->bday_m = $request->input('mbday');
+        $user->bday_d = $request->input('dbday');
+        $user->bday_y = $request->input('ybday');
+        $user->email = $request->input('email');
+        $user->password = $request->input('pass');
+        $user->profile_pic = 'noimage.jpg';
+        $user->save();
+
+        return redirect('/');
     }
 
     /**
